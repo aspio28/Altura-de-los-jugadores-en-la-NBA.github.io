@@ -3,32 +3,26 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-import { useEffect, useState } from "react";
-import { useData } from "../../services";
+import { useContext, useEffect, useState } from "react";
 import { useTeam } from "../../hooks";
+import { TeamContext } from "../../contexts";
 
 export default function TeamMedia() {
   const [team, setTeam] = useState("NBA");
   const [image, setImage] = useState(null);
-  const [teams, setTeams] = useState([]);
   const [mean, setMean] = useState(0);
 
-  const { getTeams } = useData();
   const { getTeamHeightMean } = useTeam();
-
-  useEffect(() => {
-    getTeams().then((data) => setTeams(data));
-  }, []);
+  const { teams } = useContext(TeamContext);
 
   useEffect(() => {
     const found = teams.find((t) => t.team === team);
 
     if (found) {
       setImage(found.img);
-
       getTeamHeightMean(found.team).then((m) => setMean(m));
     }
-  }, [team, teams]);
+  }, [team, teams, getTeamHeightMean]);
 
   function handleChange(e) {
     setTeam(e.target.value);

@@ -17,5 +17,9 @@ export default function useData() {
       });
   }
 
-  return { getPlayers, getTeams };
+  async function getCountries() {
+    return fetch("./country.json").then((r) => r.json());
+  }
+
+  return { getPlayers, getTeams, getCountries };
 }
