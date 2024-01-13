@@ -62,7 +62,7 @@ export default function TeamMedia() {
       <div className="flex items-center flex-col">
         <h1 className="mb-5">{Number.parseInt(mean)} cm</h1>
 
-        <img src="/player_model.png" alt="player model" className="w-[300px]" />
+        <img src="./player_model.png" alt="player model" className="w-[300px]" />
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 export default function useData() {
   async function getPlayers() {
-    return fetch("/nba_players.json").then((r) => r.json());
+    return fetch("./nba_players.json").then((r) => r.json());
   }
 
   async function getTeams() {
-    return fetch("/team.json")
+    return fetch("./team.json")
       .then((r) => r.json())
       .then((data) => {
         const returnData = [];
