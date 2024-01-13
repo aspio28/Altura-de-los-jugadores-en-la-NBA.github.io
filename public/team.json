@@ -1,0 +1,130 @@
+{
+    "NBA":{
+        "name": "NBA",
+        "img": "img/NBA.png"
+    },
+    "ATL":{
+        "name": "Atlanta Hawks",
+        "img": "img/Eq/ATL.png"
+    },
+    "BKN":{
+        "name": "Brooklyn Nets",
+        "img": "img/Eq/BKN.png"
+    },
+    "BOS":{
+        "name": "Boston Celtics",
+        "img": "img/Eq/BOS.png"
+    },
+    "CHA":{
+        "name": "Charlotte Hornets",
+        "img": "img/Eq/CHA.png"
+    },
+    "CHI":{
+        "name": "Chicago Bulls",
+        "img": "img/Eq/CHI.png"
+    },
+    "CLE":{
+        "name": "Cleveland Cavaliers",
+        "img": "img/Eq/CLE.png"
+    },
+    "DAL":{
+        "name": "Dallas Mavericks",
+        "img": "img/Eq/DAL.png"
+    },
+    "DEN":{
+        "name": "Denver Nuggets",
+        "img": "img/Eq/DEN.png"
+    },
+    "DET":{
+        "name": "Detroit Pistons",
+        "img": "img/Eq/DET.png"
+    },
+    "GSW":{
+        "name": "Golden State Warriors",
+        "img": "img/Eq/GSW.png"
+    },
+    "HOU":{
+        "name": "Houston Rockets",
+        "img": "img/Eq/HOU.png"
+    },
+    "IND":{
+        "name": "Indiana Pacers",
+        "img": "img/Eq/IND.png"
+    },
+    "LAC":{
+        "name": "Los Angeles Clippers",
+        "img": "img/Eq/LAC.png"
+    },
+    "LAL":{
+        "name": "Los Angeles Lakers",
+        "img": "img/Eq/LAL.png"
+    },
+    "MEM":{
+        "name": "Memphis Grizzlies",
+        "img": "img/Eq/MEM.png"
+    },
+    "MIA":{
+        "name": "Miami Heat",
+        "img": "img/Eq/MIA.png"
+    },
+    "MIL":{
+        "name": "Milwakee Bucks",
+        "img": "img/Eq/MIL.png"
+    },
+    "MIN":{
+        "name": "Minnesota Timberwolves",
+        "img": "img/Eq/MIN.png"
+    },
+    "NOP":{
+        "name": "New Orleans Pelicans",
+        "img": "img/Eq/NOP.png"
+    },
+    "NYK":{
+        "name": "New York Knicks",
+        "img": "img/Eq/NYK.png"
+    },
+    "OKC":{
+        "name": "Oklahoma City Thunder",
+        "img": "img/Eq/OKC.png"
+    },
+    "ORL":{
+        "name": "Orlando Magic",
+        "img": "img/Eq/ORL.png"
+    },
+    "PHI":{
+        "name": "Philadelphia 76ers",
+        "img": "img/Eq/PHI.png"
+    },
+    "PHX":{
+        "name": "Phoenix Suns",
+        "img": "img/Eq/PHX.png"
+    },
+    "POR":{
+        "name": "Portland Trail Blazers",
+        "img": "img/Eq/POR.png"
+    },
+    "SAC":{
+        "name": "Sacramento Kings",
+        "img": "img/Eq/SAC.png"
+    },
+    "SAS":{
+        "name": "San Antonio Spurs",
+        "img": "img/Eq/SAS.png"
+    },
+    "SEA":{
+        "name": "Seatle Supersonics",
+        "img": "img/Eq/SEA.png"
+    },
+    "TOR":{
+        "name": "Toronto Raptors",
+        "img": "img/Eq/TOR.png"
+    },
+    "UTA":{
+        "name": "Utah Jazz",
+        "img": "img/Eq/UTA.png"
+    },
+    "WAS":{
+        "name": "Washington Wizards",
+        "img": "img/Eq/WAS.png"
+    }
+}
