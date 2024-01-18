@@ -20,7 +20,7 @@ export default function App() {
       />
 
       <div className="w-full max-w-[900px] flex flex-col items-center">
-        <Title>Insertar título</Title>
+        <Title>¿Más alto es mejor?</Title>
 
         <Section>
           <Paragraph>
@@ -37,9 +37,8 @@ export default function App() {
             <div>
               <img src="./team.jpg" alt="" className="mb-5" />
               <Paragraph>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium voluptate debitis facilis eius aperiam ab sapiente
-                fuga! Consequatur, recusandae dolorum.
+                Devin Vassell(196), Victor Wembanyama(224), Zach Collins(211), Jeremy Sochan(203) 
+                (de izquierda a derecha)
               </Paragraph>
             </div>
 
@@ -74,7 +73,14 @@ export default function App() {
           <Paragraph>
             A lo largo de la historia el promedio de altura no ha tenido una
             gran variación en los datos analizados, solo una ligera subida de un
-            cm en la década del 2000.
+            cm en la década del 2000. En los datos analizados hubo un ligero decremento 
+            en la década del 2020, lo cual debe estar dado por el pequeño tamaño de muestra 
+            analizado en este lapso de tiempo. 
+          </Paragraph>
+          <Paragraph>
+            En los datos se aprecia que los Indiana Pacers en la década de 1990-2000, poseen el promedio
+            más alto entre todos los equipos. Mientras que el país con mayor altura promedio es China tanto en
+            la década 2000-2010, como en 2010-2020, lo cual coincide con la precencia de Yao Ming(228cm) en la liga.
           </Paragraph>
           <DecadatesChart />
         </Section>
@@ -83,19 +89,21 @@ export default function App() {
           <Paragraph>
             La altura promedio de la altura coincide con la altura actual de
             200cm. Todos los equipos tienen un promedio de altura bastante
-            parecido, solo destacando que ambos equipos de Los Angeles son los
-            mas altos con 201cm, mientras el mas bajo históricamente son los
-            Detroit Pistons.
+            parecido, donde el mayor otra vez son los Indiana Pacers co 201,3cm, 
+            mientras el mas bajo históricamente son los New Orleans Pelicans con 199,7cm.
           </Paragraph>
           <TeamMedia />
         </Section>
 
         <Section>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus velit
-            aspernatur voluptates unde beatae, voluptas animi eos quia
-            doloremque qui a nemo quasi eum officia laudantium odit labore.
-            Saepe, perspiciatis?
+            En la siguiente gráfica se ve como los puntos anotados por partido aumentan mientras mayor 
+            sea la altura del jugador, al igual que los rebotes. Mientras con las asistencias pasa todo lo contrario.
+          </Paragraph>
+          <Paragraph>
+            Curioso es que los puntos no aumentan siempre, y hay una bajada con los jugadores entre 200 y 220cm, lo cual
+            evidencia la importancia que tiene la capacidad atlética en la liga. Con jugadores que a pesar de no ser los mas altos 
+            suplen sus centimetros de menos, con explosividad, y potencia de salto.
           </Paragraph>
         </Section>
 
@@ -125,7 +133,7 @@ export default function App() {
             />
             <Image
               image={"./big-small.jpg"}
-              text={"lorem 28"}
+              text={"Ambos enfrentados en un partido"}
               width={600}
               height={470}
             />
